@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+.env.local
+apps/api/uploads/
+apps/api/runtime/
+apps/api/bot_sessions/
+*.log
+*.png

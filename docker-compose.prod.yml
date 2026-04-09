@@ -1,0 +1,50 @@
+version: "3.9"
+
+services:
+  mongo:
+    image: mongo:7
+    container_name: novabridge-mongo
+    restart: unless-stopped
+    volumes:
+      - mongo_data:/data/db
+
+  api:
+    build:
+      context: .
+      dockerfile: apps/api/Dockerfile
+    container_name: novabridge-api
+    restart: unless-stopped
+    env_file:
+      - .env.production
+    depends_on:
+      - mongo
+    ports:
+      - "4000:4000"
+
+  web:
+    build:
+      context: .
+      dockerfile: apps/web/Dockerfile
+    container_name: novabridge-web
+    restart: unless-stopped
+    depends_on:
+      - api
+    ports:
+      - "8080:80"
+
+  bot:
+    build:
+      context: ./apps/bot
+      dockerfile: Dockerfile
+    container_name: novabridge-bot
+    restart: unless-stopped
+    env_file:
+      - .env.production
+    ports:
+      - "${BOT_PORT:-3001}:3001"
+    volumes:
+      - ./bot_sessions:/app/bot_sessions
+      - ./data:/app/data
+
+volumes:
+  mongo_data:

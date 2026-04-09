@@ -1,0 +1,13 @@
+Excepcion no controlada en el bot: Error: UNKNOWN: unknown error, open 'C:\Users\frank\OneDrive\Documentos\New project\apps\bot\bot_sessions\baileys_store.json'
+    at writeFileSync (node:fs:2413:20)
+    at Object.writeToFile (C:\Users\frank\OneDrive\Documentos\New project\node_modules\@whiskeysockets\baileys\lib\Store\make-in-memory-store.js:407:13)
+    at Timeout._onTimeout (C:\Users\frank\OneDrive\Documentos\New project\node_modules\@bot-whatsapp\provider\lib\baileys\index.cjs:340:28)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7) {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\frank\\OneDrive\\Documentos\\New project\\apps\\bot\\bot_sessions\\baileys_store.json'
+}
+No se pudo guardar el store de Baileys: UNKNOWN: unknown error, open 'C:\Users\frank\OneDrive\Documentos\New project\apps\bot\bot_sessions\baileys_store.json'
+^C^C

@@ -1,0 +1,53 @@
+
+> nova-bridge-platform@1.0.0 start:bot
+> npm run start --workspace @novabridge/bot
+
+
+> @novabridge/bot@1.0.0 start
+> node src/app.js
+
+SISCAMCHACCHA bot iniciado.
+Portal QR: http://localhost:3001
+QR PNG local: bot.qr.png
+
+🚩 ESCANEAR QR 🚩
+Existen varias maneras de escanear el QR code
+- Tambien puedes visitar  http://localhost:3001
+- Se ha creado un archivo que finaliza  qr.png
+
+Accion requerida: {
+  instructions: [
+    'Escanea el QR generado en C:\\Users\\frank\\OneDrive\\Documentos\\New project\\apps\\bot\\bot.qr.png.',
+    'Tambien puedes abrir el portal web local para verlo.'
+  ]
+}
+⚡⚡ ACCIÓN REQUERIDA ⚡⚡
+Escanea el QR generado en C:\Users\frank\OneDrive\Documentos\New project\apps\bot\bot.qr.png.
+Tambien puedes abrir el portal web local para verlo.
+
+Accion requerida: {
+  instructions: [
+    'Escanea el QR generado en C:\\Users\\frank\\OneDrive\\Documentos\\New project\\apps\\bot\\bot.qr.png.',
+    'Tambien puedes abrir el portal web local para verlo.'
+  ]
+}
+⚡⚡ ACCIÓN REQUERIDA ⚡⚡
+Escanea el QR generado en C:\Users\frank\OneDrive\Documentos\New project\apps\bot\bot.qr.png.
+Tambien puedes abrir el portal web local para verlo.
+
+Accion requerida: {
+  instructions: [
+    'Escanea el QR generado en C:\\Users\\frank\\OneDrive\\Documentos\\New project\\apps\\bot\\bot.qr.png.',
+    'Tambien puedes abrir el portal web local para verlo.'
+  ]
+}
+⚡⚡ ACCIÓN REQUERIDA ⚡⚡
+Escanea el QR generado en C:\Users\frank\OneDrive\Documentos\New project\apps\bot\bot.qr.png.
+Tambien puedes abrir el portal web local para verlo.
+
+Aviso del proveedor: Conexion cerrada temporalmente. Codigo: 515
+Conexion cerrada temporalmente. Codigo: 515
+
+Proveedor de WhatsApp listo.
+Proveedor conectado y listo
+

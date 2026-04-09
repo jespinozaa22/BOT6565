@@ -1,0 +1,24 @@
+node:fs:2413
+    return binding.writeFileUtf8(
+                   ^
+
+Error: UNKNOWN: unknown error, open 'C:\Users\frank\OneDrive\Documentos\New project\bot_sessions\baileys_store.json'
+    at writeFileSync (node:fs:2413:20)
+    at Object.writeToFile (C:\Users\frank\OneDrive\Documentos\New project\node_modules\@whiskeysockets\baileys\lib\Store\make-in-memory-store.js:407:13)
+    at Timeout._onTimeout (C:\Users\frank\OneDrive\Documentos\New project\apps\bot\src\providers\stable-baileys-provider.js:56:20)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7) {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\frank\\OneDrive\\Documentos\\New project\\bot_sessions\\baileys_store.json'
+}
+
+Node.js v24.14.1
+npm error Lifecycle script `start` failed with error:
+npm error code 1
+npm error path C:\Users\frank\OneDrive\Documentos\New project\apps\bot
+npm error workspace @novabridge/bot@1.0.0
+npm error location C:\Users\frank\OneDrive\Documentos\New project\apps\bot
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c node src/app.js

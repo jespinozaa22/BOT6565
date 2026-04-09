@@ -1,0 +1,26 @@
+{
+  "name": "nova-bridge-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Plataforma SaaS CRM omnicanal enfocada en WhatsApp con arquitectura moderna.",
+  "workspaces": [
+    "apps/api",
+    "apps/web",
+    "apps/bot"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev --workspace @novabridge/api\" \"npm run dev --workspace @novabridge/web\"",
+    "dev:api": "npm run dev --workspace @novabridge/api",
+    "dev:web": "npm run dev --workspace @novabridge/web",
+    "dev:bot": "npm run dev --workspace @novabridge/bot",
+    "build": "npm run build --workspace @novabridge/web",
+    "start": "npm run start --workspace @novabridge/api",
+    "start:bot": "npm run start --workspace @novabridge/bot",
+    "deploy:prod": "docker compose -f docker-compose.prod.yml up -d --build",
+    "stop:prod": "docker compose -f docker-compose.prod.yml down",
+    "seed": "npm run seed --workspace @novabridge/api"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  }
+}

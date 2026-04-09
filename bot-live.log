@@ -1,0 +1,81 @@
+
+> nova-bridge-platform@1.0.0 start:bot
+> npm run start --workspace @novabridge/bot
+
+
+> @novabridge/bot@1.0.0 start
+> node src/app.js
+
+SISCAMCHACCHA bot iniciado.
+Portal QR: http://localhost:3001
+QR PNG local: apps/bot/bot.qr.png
+
+🚩 ESCANEAR QR 🚩
+Existen varias maneras de escanear el QR code
+- Tambien puedes visitar  http://localhost:3001
+- Se ha creado un archivo que finaliza  qr.png
+
+Proveedor de WhatsApp listo.
+Proveedor conectado y listo
+
+Host conectado: { phone: '51982945926', id: '51982945926:56@s.whatsapp.net' }
+Mensaje entrante: {
+  from: '46807224725597@lid',
+  sender: '46807224725597@lid',
+  body: 'Hola',
+  type: undefined,
+  hasMessage: true
+}
+Enviando imagen: {
+  to: '46807224725597@lid',
+  mediaUrl: 'C:\\Users\\frank\\OneDrive\\Documentos\\New project\\apps\\bot\\assets\\company.jpg',
+  captionPreview: '🤖✨ *Bienvenido a SISCAMCHACCHA*\n' +
+    '🛡️ *Soluciones Integrales de Seguridad y Tecno'
+}
+Mensaje entrante: {
+  from: '46807224725597@lid',
+  sender: '46807224725597@lid',
+  body: '5',
+  type: undefined,
+  hasMessage: true
+}
+Enviando texto: {
+  to: '46807224725597@lid',
+  preview: '🤖📋 *Solicitud de Cotizacion o Atencion Comercial*\n' +
+    '\n' +
+    'Registraremos sus datos par'
+}
+Enviando texto: {
+  to: '46807224725597@lid',
+  preview: '🤖🪪 Ingrese su *DNI* o *RUC* para iniciar el registro.'
+}
+Mensaje entrante: {
+  from: '46807224725597@lid',
+  sender: '46807224725597@lid',
+  body: '67564455',
+  type: undefined,
+  hasMessage: true
+}
+Enviando texto: {
+  to: '46807224725597@lid',
+  preview: '🤖👤 Indique su *nombre completo* o *razon social*.'
+}
+Enviando texto: {
+  to: '46807224725597@lid',
+  preview: '🤖👤 Indique su *nombre completo* o *razon social*.'
+}
+Enviando texto: {
+  to: '46807224725597@lid',
+  preview: '🤖📍 Indique su *ciudad* o *departamento* de atencion.'
+}
+Mensaje entrante: {
+  from: '46807224725597@lid',
+  sender: '46807224725597@lid',
+  body: 'Luis matines',
+  type: undefined,
+  hasMessage: true
+}
+Enviando texto: {
+  to: '46807224725597@lid',
+  preview: '🤖📝 Describa brevemente el *servicio o requerimiento* que necesita.'
+}

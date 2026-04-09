@@ -1,0 +1,33 @@
+node:events:486
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1948:16)
+    at listenInCluster (node:net:2005:12)
+    at Server.listen (node:net:2110:7)
+    at Polka.listen (C:\Users\frank\OneDrive\Documentos\New project\node_modules\polka\index.js:66:22)
+    at start (C:\Users\frank\OneDrive\Documentos\New project\node_modules\@bot-whatsapp\portal\lib\portal.http.cjs:65:10)
+    at main (C:\Users\frank\OneDrive\Documentos\New project\apps\bot\src\app.js:32:3)
+    at Object.<anonymous> (C:\Users\frank\OneDrive\Documentos\New project\apps\bot\src\app.js:47:1)
+    at Module._compile (node:internal/modules/cjs/loader:1812:14)
+    at Object..js (node:internal/modules/cjs/loader:1943:10)
+    at Module.load (node:internal/modules/cjs/loader:1533:32)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1984:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+
+Node.js v24.14.1
+npm error Lifecycle script `start` failed with error:
+npm error code 1
+npm error path C:\Users\frank\OneDrive\Documentos\New project\apps\bot
+npm error workspace @novabridge/bot@1.0.0
+npm error location C:\Users\frank\OneDrive\Documentos\New project\apps\bot
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c node src/app.js
